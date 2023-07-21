@@ -49,8 +49,11 @@ footer{
 }
 /*common*/
 .rating span{
-  color: gold;
+  color: #404040;
   margin: 0.1rem;
+}
+.rating span :last-child{
+  color:gold;
 }
 h1{
   font-size: 1.8rem;
